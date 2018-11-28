@@ -1,3 +1,5 @@
+# Antivirus Testing and Selection
+
 This is a brief description of the tools I used, issues I encountered and results I found when testing multiple antivirus vendors.
 
 I was brought into my current role as a system administrator for a company that previously did not have any dedicated IT department or managed service provider. The infrastructure was lacking and policies were not in place yet. On this surface, jumping into this type of role would seem sadistic at best to most IT professionals but it provided a great opportunity to learn a lot of different roles and wear lots of different hats. Plus, lets be real, anything I did would be an improvement and help the company overall by at least establishing a process.
