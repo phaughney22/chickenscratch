@@ -7,7 +7,7 @@ The following scripts are a collection of of scripts I have collected from vario
 ### Adds everyone to lpadmin group so that they can add printers without being a full admin. Still will not be able to unlock printing preferences but will be able to add printers.
 `$ sudo dseditgroup -o edit -a "everyone" -t group lpadmin`
 
-### Hides the specified user. In this case the user is "adminninja" since this is the default admin user.
+### Hides the specified user. In this example the user is "adminninja".
 `$ sudo defaults write /Library/Preferences/com.apple.loginwindow HiddenUsersList -array-add adminninja`
 
 ### Returns diagnostic info for the current wireless network the machine is connected to.
@@ -24,9 +24,12 @@ The following scripts are a collection of of scripts I have collected from vario
 
 ### Deletes all files in specified folder that have not been accessed in 365 days
 `$ find ~/Downloads/Test -type f -atime +365 -exec rm {} \;`
+
 `$ mdfind -0 -onlyin /Users/$(stat -f %Su /dev/console)/Downloads 'kMDItemLastUsedDate <= $time.this_month(-4)' | xargs -0 -n1 rm `
 
 ### This version moves the files to the trash instead of deleting
 `$ find ~/Downloads/Test -type f ! -name '.*' -atime +90 -exec mv {} ~/.Trash \; `
+
 `$ mdfind -onlyin /Users/$loggedInUser/Downloads 'kMDItemLastUsedDate <= $time.this_month(-6)' `
+
 `$ mdfind -0 -onlyin /Users/$(stat -f %Su /dev/console)/Downloads 'kMDItemLastUsedDate <= $time.this_month(-1)' | xargs -n 1 -I '{}' mv {} /Users/$(stat -f %Su /dev/console)/.Trash -rf`
