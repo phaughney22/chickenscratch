@@ -11,4 +11,5 @@ This also ended up my first time actually installing High Sierra on VirtualBox. 
 Lets chat about the samples themselves. I dont have any honeypots running or places I can pull live samples from and quite frankly we haven’t had any major breaches with anything serious. Queue the Google searches again (also shoutout to the local infosec slack channel for pointing me in the direction of some of these). Here are the two spots I pulled form:
 * https://github.com/ytisf/theZoo
 * https://objective-see.com/malware.html
+
 Now I realize that AV vendors can easily find these samples and protect against them, but its about the best I can do with my resources (time frame and actual manpower) and I feel like its at least doing my due diligence. Since these are publicly facing samples, if the antivirus did not detect it that would certainly raise some red flags for me.
