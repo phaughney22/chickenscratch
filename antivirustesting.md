@@ -45,6 +45,8 @@ All of the samples introduced are publicly available and are not 0 day exploits.
 
 ## Results
 
+![Image](https://github.com/phaughney22/chickenscratch/blob/master/avresult.png)
+
 The results of the tests helped to set apart some of the products from their peers. Both Sophos and Crowdstrike were able to identify and mitigate all of the samples that were tested. Cylance seemed to do fairly well addressing the threats. However, in some cases it was slow to respond or in one instance failed to identify a threat in any reasonable amount of time. It did receive a couple of delayed responses because it eventually did block the program from running, however it was able to run prior to being blocked.
 
 Malwarebytes seemed to have a difficult time with the tests. In many cases the samples were not reported as a threat by Malwarebytes. I inquired about the poor performance and lack of detection from an individual at Malwarebytes who was not part of the sales process and was unaware of any deals between our two companies. He mentioned that often times Malwarebytes will deem a threat out of date and no longer actively update signatures or look for the threat. This proved to be the downfall of it in this case. I believe, that while these threats are not 0 day vulnerabilities or the most current advanced threats, they still are present in the threat landscape today and should at least be protected against. Deeming a threat “outdated” is relying on security via time-based obscurity and in my opinion is a poor practice. For this reason I would suggest eliminating Malwarebytes from contention.
