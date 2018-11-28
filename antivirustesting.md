@@ -45,7 +45,7 @@ All of the samples introduced are publicly available and are not 0 day exploits.
 
 ## Results
 
-![Image](https://github.com/phaughney22/chickenscratch/blob/master/avresult.png)
+![Image](https://github.com/phaughney22/chickenscratch/blob/master/avresult.png)   
 
 The results of the tests helped to set apart some of the products from their peers. Both Sophos and Crowdstrike were able to identify and mitigate all of the samples that were tested. Cylance seemed to do fairly well addressing the threats. However, in some cases it was slow to respond or in one instance failed to identify a threat in any reasonable amount of time. It did receive a couple of delayed responses because it eventually did block the program from running, however it was able to run prior to being blocked.
 
