@@ -5,5 +5,5 @@ This website is created as a reflection on my experience throughout my career in
 
 ### Blog Topics
 
-* [Helpful Mac Admin Scripts](macscripts.html)
-* [Selecting an Antivirus Solution](antivirustesting.html)
+* [Helpful Mac Admin Scripts](http://blog.patrickhaughney.com/macscripts.html)
+* [Selecting an Antivirus Solution](http://blog.patrickhaughney.com/antivirustesting.html)
